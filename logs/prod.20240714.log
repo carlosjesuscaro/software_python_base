@@ -1,0 +1,27 @@
+2024-07-14 14:15:17,469 - INFO - __main__ - <module>:38 - Program started
+2024-07-14 14:15:17,469 - INFO - root - square:21 - Square value of 22
+2024-07-14 14:15:17,469 - INFO - __main__ - <module>:41 - Program finished
+2024-07-14 14:16:47,774 - INFO - __main__ - <module>:38 - Program started
+2024-07-14 14:16:47,774 - INFO - root - square:21 - Square value of 22
+2024-07-14 14:16:47,774 - INFO - __main__ - <module>:41 - Program finished
+2024-07-14 14:22:25,750 - INFO - __main__ - <module>:38 - Program started
+2024-07-14 14:22:25,751 - INFO - root - square:20 - Square value of 22
+2024-07-14 14:22:25,751 - INFO - __main__ - <module>:41 - Program finished
+2024-07-14 14:22:35,059 - INFO - __main__ - <module>:38 - Program started
+2024-07-14 14:22:35,059 - INFO - root - square:20 - Square value of vava
+2024-07-14 14:22:35,059 - ERROR - root - square:23 - Data must be an integer, got <class 'str'>
+2024-07-14 14:23:21,199 - INFO - __main__ - <module>:38 - Program started
+2024-07-14 14:23:21,199 - INFO - root - square:20 - Square value of vava
+2024-07-14 14:23:21,199 - ERROR - root - square:23 - Data must be an integer, got <class 'str'>
+2024-07-14 14:23:21,199 - INFO - __main__ - <module>:41 - Program finished
+2024-07-14 14:25:39,434 - INFO - __main__ - <module>:38 - Program started
+2024-07-14 14:25:39,435 - INFO - root - square:20 - Square value of 33
+2024-07-14 14:25:39,435 - INFO - root - square:22 - 1089
+2024-07-14 14:25:39,435 - INFO - __main__ - <module>:41 - Program finished
+2024-07-14 14:26:18,997 - INFO - __main__ - <module>:38 - Program started
+2024-07-14 14:26:18,997 - INFO - root - square:20 - Square value of 33
+2024-07-14 14:26:18,997 - INFO - root - square:22 - The suqare of 33 is 1089
+2024-07-14 14:26:18,997 - INFO - __main__ - <module>:41 - Program finished
+2024-07-14 14:26:43,881 - INFO - __main__ - <module>:38 - Program started
+2024-07-14 14:26:43,881 - INFO - root - square:21 - The square of 33 is 1089
+2024-07-14 14:26:43,881 - INFO - __main__ - <module>:41 - Program finished
