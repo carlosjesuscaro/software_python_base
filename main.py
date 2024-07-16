@@ -38,6 +38,8 @@ if __name__ == '__main__':
     logger = logging.getLogger(__name__)
     logger.info("Program started")
     print_hi('PyCharm')
+    square(33)
     square('wsw')
+    addition(33)
     addition('dwd')
     logger.info("Program finished")

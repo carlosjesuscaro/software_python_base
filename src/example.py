@@ -18,10 +18,10 @@ def square(data: int) -> int:
     """
     try:
         squared = data ** 2
-        logging.info(f'The square of {data} is {squared}')
+        logger.info(f'The square of {data} is {squared}')
         return squared
     except TypeError:
-        logging.error(f"Data must be an integer, got {type(data)}")
+        logger.error(f"Data must be an integer, got {type(data)}")
         return -1
 
 
