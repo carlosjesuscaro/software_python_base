@@ -1,0 +1,8 @@
+2024-07-15 20:34:53,518 - INFO - __main__ - <module>:38 - Program started
+2024-07-15 20:34:53,518 - INFO - root - square:21 - The square of 33 is 1089
+2024-07-15 20:34:53,518 - INFO - __main__ - <module>:41 - Program finished
+2024-07-15 20:36:17,327 - INFO - __main__ - <module>:38 - Program started
+2024-07-15 20:36:17,327 - ERROR - root - square:24 - Data must be an integer, got <class 'str'>
+2024-07-15 20:36:17,327 - INFO - __main__ - <module>:41 - Program finished
+2024-07-15 20:41:49,450 - INFO - __main__ - <module>:39 - Program started
+2024-07-15 20:41:49,450 - ERROR - root - square:24 - Data must be an integer, got <class 'str'>

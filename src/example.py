@@ -14,7 +14,7 @@ def square(data: int) -> int:
     Returns:
         int: The squared value of data
     Raises
-        TypeError: If the data is not an integer
+        None. The TYpeError is caught with a try-except block
     """
     try:
         squared = data ** 2
@@ -22,3 +22,16 @@ def square(data: int) -> int:
         return squared
     except TypeError:
         logging.error(f"Data must be an integer, got {type(data)}")
+        return -1
+
+
+def addition(data: int) -> int:
+    """Returns the square value of an integer
+    Args:
+        data (int): The data to be squared
+    Returns:
+        int: The squared value of data
+    Raises
+        TypeError: If the data is not an integer
+    """
+    return data + 10

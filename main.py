@@ -4,6 +4,7 @@ import logging.config
 from datetime import datetime
 from dotenv import find_dotenv, load_dotenv
 from src.example import square
+from src.example import addition
 
 env_file = find_dotenv()
 load_dotenv()
@@ -37,5 +38,6 @@ if __name__ == '__main__':
     logger = logging.getLogger(__name__)
     logger.info("Program started")
     print_hi('PyCharm')
-    square(33)
+    square('wsw')
+    addition('dwd')
     logger.info("Program finished")
