@@ -20,8 +20,9 @@ def square(data: int) -> int:
         squared = data ** 2
         logger.info(f'The square of {data} is {squared}')
         return squared
-    except TypeError:
+    except Exception as error:
         logger.error(f"Data must be an integer, got {type(data)}")
+        logger.error(f'An exception has occurred: {type(error).__name__}')
         return -1
 
 
@@ -34,4 +35,7 @@ def addition(data: int) -> int:
     Raises
         TypeError: If the data is not an integer
     """
-    return data + 10
+    try:
+        return data + 10
+    except Exception as error:
+        logger.error(f"An error has occurred: {type(error).__name__}")
